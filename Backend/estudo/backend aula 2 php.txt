@@ -1,0 +1,116 @@
+passo 1
+criar um data base user com 4 tabelas 
+IA AUTO INCREMENT possibilita que sempre que adicionar algo na tabela vai continuar 1 2  3 4
+
+processo basico de criar tabela pa 
+b
+https://www.w3schools.com/php/default.asp
+
+criar tabel >
+criar conexão entre db e php> senhas e logins do servidor
+ selecionar oque quer da tabela pelo php > query
+  chamar na unity> unitywebrequest
+
+
+  teste de login 
+
+  unity cliente manda string do login e passowrd atraves da classe wwwform  
+  
+  php faz uma verificação  unity _Post
+
+  >>> 
+
+  criar uma  tabelas  inventario
+  ADICIONAR AO BANCO ID PREÇO DESCRIÇÃO IMAGEML.
+
+  criar a relaçao entre o inventario e o usuoria
+ ID USER ID ITEM ID
+
+$result->num_rows = devolve quantos registros veio de um SELECT
+$result->fetchassocciative() = poen as tabelas por colunanum array;
+$row = array() fa conseguir receber um fetch;
+json_encode() transforma isso numa linguagem lida por qualquer coisa um data
+
+colocar json no projeto simpleJSON.cs (caso precise)
+www.download.contains 
+
+callbacks >>>
+
+fazer uma busca doque significa o id de cada item;
+pegar todas informações do Do player e guardar id nome etc..
+
+
+passo 1 para usar callbacks 
+adicionar system library
+
+
+
+
+v preciso saber a quantidade de items que existem e tipos
+
+v depois disso eu coloco a corrotina num loop for com a quantidade maxima de items
+
+v passo todas referencias para uma lista 
+
+depois fasso uma lista com os items do player
+    pegar quantidade de items que o player tem SELECT COUNT(userID) FROM `relacaoitemxusers` WHERE userID = 44
+    vai pegando id por id desses items
+
+    colocar o id numa lista
+
+faz uma verificação pra ver qual item q o player tem e instancia cada um
+
+
+ ////
+PEGAR AS INFORMAÇÕES DO player done
+
+FAZER GERAR UM ITEM ALEATORIO com um quiz vc adivinha se ele vale muito ou não. 
+
+cadastrar um item no inventario 
+deletar um item do inventario
+
+sistema de grana
+
+PASSAR ELE PARA O inventario
+
+OU VENDER ou gerar outro
+
+objetivo do jogo é tentar nao ficar pobre 
+
+
+
+
+
+
+/////////////////////////////////////////////
+if ($result->num_rows  // numero de colunas
+  {
+
+  $json = array(); // formata a variavel pra receber array
+   
+  while($row = mysqli_fetch_assoc($result) // passa o resultado da query para arrays associativos 
+  {
+     if($row["password"]    // depos de estar associativo vc consegue acessar pelo nome da coluna 
+     {
+        $json[] = $row; / passa o array associativo para dentro de um array
+        
+        echo json_encode($json); // transforma num data
+
+        System.Text.Encoding.UTF8.GetString(post.downloadHandler.data); converter o formato data para c#
+
+        "{\"nomedalista\":" + lala + "}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
